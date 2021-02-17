@@ -60,36 +60,63 @@
   transform: scale(0.5);
 }
 
-/* ESERCIZIO 6 */
+/* ESERCIZIO 6 - 7 - 8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: 2s;
 }
 
+/* es. 6 */
 .ex-6-img:hover {
   filter: grayscale(1);
 }
 
+/* es. 7 */
+.ex-7-img {
+  transition: 2s;
+}
+.ex-7-img:hover {
+  filter: drop-shadow(5);
+  filter: brightness(5);
+}
+
+/* es. 8 */
+.ex-8-img {
+  transition: 2s;
+}
+.ex-8-img:hover {
+  filter: contrast(2);
+  filter: invert(1);
+  border-radius: 20px;
+}
 
 
-/* ESERCIZIO 7 */
+/* ESERCIZIO 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img {
+  transition: 2s;
+}
+.ex-9-img:hover {
+  filter: saturate(3);
+  filter: hue-rotate(4);
+  border-radius: 20px;
+  transform: scale(1.4);
+}
 
 
-/* ESERCIZIO 8 */
+/* ESERCIZIO 10 */
 .ex-10-icon {
     font-size: 60px;
 }
 
-/* ESERCIZIO 9 */
+/* ESERCIZIO 11 */
 .ex-11-icon {
     font-size: 60px;
 }
 
-/* ESERCIZIO 10 */
+/* ESERCIZIO 12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -104,7 +131,7 @@
     text-decoration: none;
 }
 
-/* ESERCIZIO 10 */
+/* ESERCIZIO 13 */
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -114,7 +141,7 @@
     height: 20px;
 }
 
-/* ESERCIZIO 11 */
+/* ESERCIZIO 14 */
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
